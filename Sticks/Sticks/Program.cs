@@ -14,32 +14,36 @@ namespace Sticks
             initialStickCount = GetNumber();
 
 
-            if (initialStickCount < 5)
+        }
+        static int GetNumber() // gets number from user and verifies that it is within the parameters of the game
+        {
+            Console.WriteLine("Choose your number of sticks: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            if (x < 5)
             {
                 Console.WriteLine("That number is too low, do you even know your numbers?");
                 Console.WriteLine("Try again.");
                 GetNumber();
+                return 0;
             }
-            else if (initialStickCount > 40)
+            else if (x > 40)
             {
                 Console.WriteLine("That number is too high, but to be fair, I didn't think you could count that high.");
                 Console.WriteLine("Try again.");
                 GetNumber();
+                return 0;
+            }
+            else if (x < 40 && x > 5)
+            {
+                Console.WriteLine("Ahh, " + x + " a good number.");
+                return x;
             }
             else
             {
-                Console.WriteLine("Ahh, " + initialStickCount + "a good number.");
+                Console.WriteLine("I dont know how you got here, but congrats! You win.");
+                return 0;
             }
-
-
-
-
-        }
-        static int GetNumber()
-        {
-            Console.WriteLine("Choose your number of sticks: ");
-            int x = Convert.ToInt32(Console.ReadLine());
-            return x;
         }
 
     }

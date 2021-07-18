@@ -1,0 +1,13 @@
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\bin\Debug\netcoreapp3.1\Sticks.exe
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\bin\Debug\netcoreapp3.1\Sticks.deps.json
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\bin\Debug\netcoreapp3.1\Sticks.runtimeconfig.json
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\bin\Debug\netcoreapp3.1\Sticks.runtimeconfig.dev.json
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\bin\Debug\netcoreapp3.1\Sticks.dll
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\bin\Debug\netcoreapp3.1\Sticks.pdb
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\obj\Debug\netcoreapp3.1\Sticks.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\obj\Debug\netcoreapp3.1\Sticks.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\obj\Debug\netcoreapp3.1\Sticks.AssemblyInfo.cs
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\obj\Debug\netcoreapp3.1\Sticks.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\obj\Debug\netcoreapp3.1\Sticks.dll
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\obj\Debug\netcoreapp3.1\Sticks.pdb
+C:\Users\danie\source\repos\PickUpSticks\Sticks\Sticks\obj\Debug\netcoreapp3.1\Sticks.genruntimeconfig.cache

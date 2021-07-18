@@ -6,18 +6,29 @@ namespace Sticks
     {
         static void Main(string[] args)
         {
-            int initialStickCount;
+            int stickCount;
 
             Console.WriteLine("Welcome to a game of pick up sticks!");
             Console.WriteLine("You cannot win, resistance is futile.");
             Console.WriteLine("How many sticks would you like to play with? You can choose between 5 and 40.");
-            initialStickCount = GetNumber();
+            stickCount = GetNumber();
+
+            if (stickCount % 4 == 1)
+            {
+                Console.WriteLine("You need all the help you can get. You shall go first!");
+            }
+            else
+            {
+                Console.WriteLine("I'm faster, so naturally, I will go first.");
+            }
+
+
 
 
         }
         static int GetNumber() // gets number from user and verifies that it is within the parameters of the game
         {
-            Console.WriteLine("Choose your number of sticks: ");
+            Console.WriteLine("Choose the total number of sticks: ");
             int x = Convert.ToInt32(Console.ReadLine());
 
             if (x < 5)
@@ -41,10 +52,46 @@ namespace Sticks
             }
             else
             {
-                Console.WriteLine("I dont know how you got here, but congrats! You win.");
+                Console.WriteLine("I dont know how you got here, but congrats, I guess you win.");
                 return 0;
             }
         }
+       
+        static int ComputersTurn(int stickCount)
+        {
+            if (stickCount % 4 == 3)
+            {
+                return 2;
+            }
+            else if (stickCount % 4 == 2)
+            {
+                return 1;
+            }
+            else if (stickCount % 4 == 0)
+            {
+                return 3;
+            }
+            else if (stickCount == 1)
+            {
+                return 0;
+            }
+            else
+            {
+                return -1;
+            }
+            
+        }
+
+        static int UserFirstPlay()
+            {
+            Console.WriteLine("How many sticks would you like to remove? 1, 2, or 3");
+            int x = Convert.ToInt32(Console.ReadLine());
+            if(x < 1 || x > 3)
+            {
+                Console.WriteLine("You Cheated!");
+            }
+            return x;
+            } 
 
     }
 }

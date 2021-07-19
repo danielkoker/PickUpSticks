@@ -6,6 +6,8 @@ namespace Sticks
     {
         static void Main(string[] args)
         {
+
+            // THIS IS A TEST // 
             int stickCount;
 
             Console.WriteLine("Welcome to a game of pick up sticks!");
@@ -26,9 +28,6 @@ namespace Sticks
                 Console.WriteLine("I'm faster, so naturally, I will go first.");
                 ComputersTurn(stickCount);
             }
-
-
-
 
 
         }
